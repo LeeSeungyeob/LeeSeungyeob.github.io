@@ -1,0 +1,504 @@
+html, body {
+  width: 100%;
+  height: 100vh; }
+
+@media screen and (max-width: 640px) {
+  #container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto; }
+    #container > #headBox {
+      width: 100vw;
+      height: 15vh;
+      padding-top: 5vh; }
+      #container > #headBox > h1 {
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden; }
+      #container > #headBox > p {
+        width: 0;
+        height: 0;
+        overflow: hidden; }
+      #container > #headBox > .bgi {
+        width: 100vw;
+        height: 20vh;
+        margin-top: -5vh;
+        background-image: url(../image/lsy_bgi.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0.45;
+        float: left;
+        position: relative;
+        z-index: -100; }
+      #container > #headBox > .my_photo {
+        width: 20vw;
+        height: 15vh;
+        float: left;
+        margin-top: -15vh;
+        margin-left: 5vw;
+        background-image: url(../image/lsy.png);
+        background-repeat: no-repeat;
+        background-size: cover; }
+    #container > #contentBox {
+      width: 100vw;
+      height: 73vh;
+      background-color: #a1c; }
+      #container > #contentBox > .mobBox {
+        width: 90vw;
+        height: 73vh;
+        background-color: #fff;
+        padding: 2vh 5vw; }
+        #container > #contentBox > .mobBox > .mobInfo {
+          width: 88vw;
+          height: 19vh;
+          float: left;
+          border: 2px solid #777;
+          box-shadow: 1px 1px 1px #595959;
+          padding-top: 2vh; }
+          #container > #contentBox > .mobBox > .mobInfo > p {
+            font-size: 0.9rem;
+            line-height: 1.125rem;
+            margin-left: 2vw; }
+        #container > #contentBox > .mobBox > .mobPP {
+          width: 41vw;
+          height: 20vh;
+          background-image: url(../image/coming_soon_center.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 2vh;
+          border: 2px solid #777;
+          box-shadow: 1px 1px 1px #595959; }
+          #container > #contentBox > .mobBox > .mobPP > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .mobBox > .mobTP {
+          width: 41vw;
+          height: 20vh;
+          background-image: url(../image/coming_soon_center.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 2vh;
+          margin-left: 5vw;
+          border: 2px solid #777;
+          box-shadow: 1px 1px 1px #595959; }
+          #container > #contentBox > .mobBox > .mobTP > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .mobBox > .mobEct {
+          width: 88vw;
+          height: 20vh;
+          background-image: url(../image/coming_soon_center.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 2vh;
+          border: 2px solid #777;
+          box-shadow: 1px 1px 1px #595959; }
+          #container > #contentBox > .mobBox > .mobEct > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+      #container > #contentBox > .someBox {
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden; }
+    #container > #footBox {
+      width: 100vw;
+      height: 7vh;
+      background-color: #ca1; } }
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  #container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto; }
+    #container > #headBox {
+      width: 0;
+      height: 0;
+      overflow: hidden; }
+    #container > #contentBox {
+      width: 100%;
+      height: calc(100vh - 9.7vw);
+      background-color: #fff;
+      padding-top: 9.7vw;
+      position: relative; }
+      #container > #contentBox > .mobBox {
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden; }
+      #container > #contentBox > .someBox {
+        width: 91.58333vw;
+        height: 41.3vw;
+        margin-left: 1.5vw; }
+        #container > #contentBox > .someBox > .resume {
+          width: 23.45833vw;
+          height: 17.3vw;
+          margin-left: 10.57vw;
+          background-image: url(../image/monitor_left.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .resume > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .resume_img {
+          width: 21.8vw;
+          height: 15.3vw;
+          float: left;
+          margin-top: 1vw;
+          margin-left: 11.43vw;
+          background-image: url(../image/coming_soon_left.png);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .my_photo {
+          width: 23.66667vw;
+          height: 16.6vw;
+          background-image: url(../image/monitor_center.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-left: 34vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .my_photo > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .my_photo_img {
+          width: 21.85vw;
+          height: 14.7vw;
+          float: left;
+          margin-top: 0.95vw;
+          margin-left: 1.65vw;
+          background-image: url(../image/lsy_img_01.jpg);
+          background-repeat: no-repeat;
+          background-size: 50% 100%;
+          background-position: center; }
+        #container > #contentBox > .someBox > .info {
+          width: 23.45833vw;
+          height: 17.3vw;
+          background-image: url(../image/monitor_right.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-left: 57.65vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .info > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .info_img {
+          width: 21.9vw;
+          height: 15.3vw;
+          float: left;
+          margin-top: 1vw;
+          margin-left: 1.75vw;
+          background-image: url(../image/resume_s.png);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .pp {
+          width: 23.45833vw;
+          height: 17.9vw;
+          background-image: url(../image/monitor_left.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 16.7vw;
+          margin-left: 10.57vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .pp > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .pp_img {
+          width: 21.8vw;
+          height: 16.3vw;
+          float: left;
+          margin-top: 1vw;
+          margin-left: 11.43vw;
+          background-image: url(../image/coming_soon_left.png);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .tp {
+          width: 23.45833vw;
+          height: 21.08333vw;
+          background-image: url(../image/monitor.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 16.55vw;
+          margin-left: 34.01vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .tp > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .tp_img {
+          width: 21.67vw;
+          height: 15.35vw;
+          float: left;
+          margin-top: 1.25vw;
+          margin-left: 1.65vw;
+          background-image: url(../image/coming_soon_center.png);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .ect {
+          width: 23.45833vw;
+          height: 17.9vw;
+          background-image: url(../image/monitor_right.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 16.7vw;
+          margin-left: 57.47vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .ect > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .ect_img {
+          width: 21.8vw;
+          height: 16.3vw;
+          float: left;
+          margin-top: 1.43vw;
+          margin-left: 1.76vw;
+          background-image: url(../image/coming_soon_right.png);
+          background-repeat: no-repeat;
+          background-size: cover; }
+    #container > #footBox {
+      width: 0;
+      height: 0;
+      overflow: hidden; } }
+@media screen and (min-width: 1025px) {
+  #container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto; }
+    #container > #headBox {
+      width: 100%;
+      height: 20vh; }
+      #container > #headBox > h1, #container > #headBox p {
+        width: 0;
+        height: 0;
+        overflow: hidden; }
+      #container > #headBox > .lee_site {
+        width: 40vw;
+        height: 100%;
+        float: left;
+        margin-top: 1vh;
+        margin-left: 5vw;
+        background-image: url(../image/lee_site.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+      #container > #headBox > .welcome {
+        width: 40vw;
+        height: 100%;
+        float: left;
+        margin-top: 3vh;
+        margin-left: 5vw;
+        background-image: url(../image/welcome.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+    #container > #contentBox {
+      width: 100%;
+      height: calc(80vh - 2vw);
+      background-color: #fff;
+      padding-top: 2vw;
+      position: relative; }
+      #container > #contentBox > .mobBox {
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden; }
+      #container > #contentBox > .someBox {
+        width: 91.58333vw;
+        height: 41.3vw;
+        margin-left: 1.5vw; }
+        #container > #contentBox > .someBox > .resume {
+          width: 23.45833vw;
+          height: 17.3vw;
+          margin-left: 10.57vw;
+          background-image: url(../image/monitor_left.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .resume:hover + .resume_img {
+            background-image: url(../image/go_resume.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90% 85%; }
+          #container > #contentBox > .someBox > .resume > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .resume_img {
+          width: 21.8vw;
+          height: 15.3vw;
+          float: left;
+          margin-top: 1vw;
+          margin-left: 11.43vw;
+          background-image: url(../image/tv_noise.gif);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .my_photo {
+          width: 23.66667vw;
+          height: 16.6vw;
+          background-image: url(../image/monitor_center.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-left: 34vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .my_photo > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .my_photo_img {
+          width: 21.85vw;
+          height: 14.7vw;
+          float: left;
+          margin-top: 0.95vw;
+          margin-left: 1.65vw;
+          background-image: url(../image/lsy_img_01.jpg);
+          background-repeat: no-repeat;
+          background-size: auto 100%;
+          background-position: center; }
+        #container > #contentBox > .someBox > .info {
+          width: 23.45833vw;
+          height: 17.3vw;
+          background-image: url(../image/monitor_right.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-left: 57.65vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .info:hover + .info_img {
+            background-image: url(../image/simple_info.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90% 85%; }
+          #container > #contentBox > .someBox > .info > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .info_img {
+          width: 21.9vw;
+          height: 15.3vw;
+          float: left;
+          margin-top: 1vw;
+          margin-left: 1.75vw;
+          background-image: url(../image/tv_noise.gif);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .pp {
+          width: 23.45833vw;
+          height: 17.9vw;
+          background-image: url(../image/monitor_left.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 16.7vw;
+          margin-left: 10.57vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .pp:hover + .pp_img {
+            background-image: url(../image/go_pw.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90% 75%; }
+          #container > #contentBox > .someBox > .pp > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .pp_img {
+          width: 21.8vw;
+          height: 16.3vw;
+          float: left;
+          margin-top: 1vw;
+          margin-left: 11.43vw;
+          background-image: url(../image/tv_noise.gif);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .tp {
+          width: 23.45833vw;
+          height: 21.08333vw;
+          background-image: url(../image/monitor.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 16.55vw;
+          margin-left: 34.01vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .tp:hover + .tp_img {
+            background-image: url(../image/go_tw.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90% 90%; }
+          #container > #contentBox > .someBox > .tp > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .tp_img {
+          width: 21.67vw;
+          height: 15.35vw;
+          float: left;
+          margin-top: 1.25vw;
+          margin-left: 1.65vw;
+          background-image: url(../image/tv_noise.gif);
+          background-repeat: no-repeat;
+          background-size: cover; }
+        #container > #contentBox > .someBox > .gallery {
+          width: 23.45833vw;
+          height: 17.9vw;
+          background-image: url(../image/monitor_right.png);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          float: left;
+          margin-top: 16.7vw;
+          margin-left: 57.47vw;
+          position: absolute;
+          z-index: 500; }
+          #container > #contentBox > .someBox > .gallery:hover + .gallery_img {
+            background-image: url(../image/go_gallery.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90% 90%; }
+          #container > #contentBox > .someBox > .gallery > a {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        #container > #contentBox > .someBox > .gallery_img {
+          width: 21.8vw;
+          height: 16.3vw;
+          float: left;
+          margin-top: 1.43vw;
+          margin-left: 1.76vw;
+          background-image: url(../image/tv_noise.gif);
+          background-repeat: no-repeat;
+          background-size: cover; }
+    #container > #footBox {
+      width: 0;
+      height: 0;
+      overflow: hidden; } }
+
+/*# sourceMappingURL=index.css.map */
